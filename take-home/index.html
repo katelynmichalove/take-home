@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cold Pursuit</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav id="myTopnav">
+            <a href="#section01" class="active">HOME</a>
+            <a href="https://www.fandango.com/cold-pursuit-215413/movie-times" target="_blank">GET TICKETS</a>
+            <a id="playme" href="#video" onclick="revealVideo('video','youtube')">TRAILER</a>
+            <a href="#about">SYNOPSIS</a>
+            <a href="">GALLERY</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+      </header>
+      <section id="section01">
+
+
+
+
+      </section>
+        <div id="video" class="lightbox" onclick="hideVideo('video','youtube')">
+          <div class="lightbox-container">
+            <div class="lightbox-content">
+              <button onclick="hideVideo('video','youtube')" class="lightbox-close">
+                Close | ✕
+              </button>
+              <div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/0phuNQQ_gHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  <script src="script.js"></script>
+  </body>
+</html>
